@@ -11,7 +11,8 @@ export default function Ticker() {
     ];
   
     return (
-      <div className='w-full bg-[#EBE8E2] font-bold text-[12px] md:text-[16px] mt-6 md:mt-0 px-6 py-3 flex justify-center items-center overflow-hidden'>
+      <>
+      <div className='w-full bg-[#EBE8E2] font-bold text-[12px] md:text-[16px] mt-10 md:mt-0 px-6 py-3 flex justify-center items-center overflow-hidden'>
         <div className="ticker-wrapper flex whitespace-nowrap animate-scroll">
           {/* Loop the items array to generate content */}
           {Array.from({ length: 20 }).map((_, index) => (
@@ -30,6 +31,11 @@ export default function Ticker() {
           ))}
         </div>
       </div>
+      <div>
+          <img src="/Video.png" alt="video" className="w-full md:h-screen h-auto object-cover" />
+          <img src="/Patterns.png" alt="patternsImg" className="w-full h-[30px] md:h-[48px]"/>
+      </div>
+      </>
     );
   }
   
