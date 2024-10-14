@@ -1,5 +1,5 @@
-import Vector from './Vector';
-import HeroImage from './HeroImage';
+import Vector from '../commons/Vector';
+import HeroImage from '../commons/HeroImage';
 
 export default function Hero() {
   return (
