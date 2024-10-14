@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Mark OT";
+  src: local("MarkOT"),
+       url('./assets/fonts/MarkOT.ttf') format('truetype');
+}
+
+body {
+    font-family: "Mark OT", sans-serif;
+  }
