@@ -42,12 +42,12 @@ export default {
 				'desktop/h1': ['80px', {
 					lineHeight: '96px',
 					letterSpacing: '-2.4px',
-					fontWeight: '500'
+					fontWeight: '600'
 				}],
-				'desktop/h2': ['48px', {
+				'desktop/h2': ['54px', {
 					lineHeight: '57.6px',
 					letterSpacing: '-1.92px',
-					fontWeight: '500'
+					fontWeight: '600'
 				}],
 				'desktop/h3': ['36px', {
 					lineHeight: '46.8px',
@@ -79,7 +79,7 @@ export default {
 					fontWeight: '400'
 				}],
 				'desktop/body/2/medium': ['14px', {
-					lineHeight: '22.4px',
+					lineHeight: '25.6px',
 					letterSpacing: '-0.28px',
 					fontWeight: '500'
 				}],
@@ -146,7 +146,7 @@ export default {
 				'mobile/h4': ['24px', {
 					lineHeight: '31.2px',
 					letterSpacing: '-0.24px',
-					fontWeight: '500'
+					fontWeight: '600'
 				}],
 				'mobile/h5': ['20px', {
 					lineHeight: '26px',
