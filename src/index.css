@@ -11,4 +11,18 @@
 body {
     font-family: "Mark OT", sans-serif;
     background-color: #fff;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0); /* Start at original position */
   }
+  100% {
+    transform: translateX(-50%); /* Move to the left by half the width of the ticker-content */
+  }
+}
+
+.animate-scroll {
+  animation: scroll 50s linear infinite; /* Adjust the duration to make it slower */
+}
+

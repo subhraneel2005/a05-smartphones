@@ -1,4 +1,5 @@
 
+import Ticker from './components/commons/Ticker'
 import Hero from './components/pages/Hero'
 import SecondPage from './components/pages/SecondPage'
 
@@ -7,6 +8,7 @@ export default function App() {
    <>
    <Hero/>
    <SecondPage/>
+   <Ticker/>
    </>
   )
 }
