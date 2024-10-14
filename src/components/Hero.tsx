@@ -1,7 +1,5 @@
-import React from 'react';
 import Vector from './Vector';
 import HeroImage from './HeroImage';
-import { FaArrowRightLong } from 'react-icons/fa6';
 
 export default function Hero() {
   return (
