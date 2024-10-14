@@ -157,7 +157,7 @@ export default {
 					lineHeight: '26px',
 					fontWeight: '500'
 				}],
-				'mobile/h6': ['16px', {
+				'mobile/h6': ['14px', {
 					lineHeight: '19.2px',
 					letterSpacing: '-0.16px',
 					fontWeight: '500'
