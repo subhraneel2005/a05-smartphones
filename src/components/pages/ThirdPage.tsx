@@ -91,11 +91,20 @@ export default function ThirdPage() {
                         </span>
                     </div>
                 </div>
+                
+                {/* task: insert another img that will be behind this frame3 image , src="/frame3Vector.png" */}
+                <img
+    src="/frame3Vector.png"
+    alt="Background Vector"
+    className="absolute bottom-0 right-0 -z-10 transform translate-y-[-20%] opacity-80  w-1/2 md:w-auto"
+/>
 
+
+                {/* Foreground frame3 image */}
                 <img
                     src="/frame3.png"
-                    alt="Trees"
-                    className="mt-4 w-[80%] md:w-[50%] md:max-w-[600px] md:absolute md:bottom-0 md:right-12 mx-auto h-auto"
+                    alt="Foreground Image"
+                    className="mt-4 w-[80%] md:w-[50%] md:max-w-[600px] md:absolute md:bottom-0 md:right-12 mx-auto h-auto z-10"
                 />
                 </div>
 
