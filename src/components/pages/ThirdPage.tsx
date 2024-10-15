@@ -68,6 +68,37 @@ export default function ThirdPage() {
                 *Memory Fusion Technology
             </div>
             </div>
+
+             {/* frame 3 */}
+             <div className="relative bg-[#FCCE8D] bg-opacity-[20%] border border-[#FCCE8D] w-full h-full md:h-screen flex flex-col justify-center items-center rounded-[36px] mt-12">
+                
+                <div className="flex flex-col justify-start items-start px-6 md:px-12 space-y-4 md:absolute md:top-1/2 md:left-[10%] md:transform md:-translate-y-1/2">
+                    <h2 className="max-w-[355px] md:text-desktop/h2 text-mobile/h4 text-center md:text-left pt-6">
+                    Unlock & Roll: Your Phone, Your Style!
+                    </h2>
+                    <p className="max-w-[355px] md:text-desktop/body/large text-desktop/body/2/regular text-[#1C1B1B] text-center md:text-left">
+                    Step into the future with a phone that's both chic and practical. With its sleek design and fingerprint sensor, you have complete control right in your hand.
+                    </p>
+
+                    <div className="flex pt-7 md:flex-col flex-row font-bold md:text-[16px] text-[12px] md:gap-0 gap-4 md:space-y-2 text-left max-w-[355px]">
+                        <span className="flex gap-2 items-center">
+                            <img src="/logos/f3l1.png" alt="f3l1" className="w-6 h-6 md:w-10 md:h-10" />
+                            <p>Face Unlock</p>
+                        </span>
+                        <span className="flex gap-2 items-center md:pt-4">
+                            <img src="/logos/f3l2.png" alt="f3l2" className="w-6 h-6 md:w-10 md:h-10" />
+                            <p>Finger Print Sensor</p>
+                        </span>
+                    </div>
+                </div>
+
+                <img
+                    src="/frame3.png"
+                    alt="Trees"
+                    className="mt-4 w-[80%] md:w-[50%] md:max-w-[600px] md:absolute md:bottom-0 md:right-12 mx-auto h-auto"
+                />
+                </div>
+
         </div>
       </div>
     );
