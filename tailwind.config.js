@@ -155,7 +155,7 @@ export default {
 				}],
 				'mobile/h5/medium': ['20px', {
 					lineHeight: '26px',
-					fontWeight: '500'
+					fontWeight: '600'
 				}],
 				'mobile/h6': ['14px', {
 					lineHeight: '19.2px',
@@ -213,9 +213,10 @@ export default {
 				'imageCarouselBackground': "url('/smartphone/S24/imageCarouselBackground.png')",
 				'fullSpecificationsActiveTabgradient': 'linear-gradient(to right, rgba(255, 0, 55, 0.2) 0%, transparent 7%, transparent 50%, transparent 80%, transparent 100%)',
 				'BuyNowSquareBG': "url('/smartphone/S24/ButtonBackground.png')",
-        'BuyNowRoundedBG': "url('/smartphone/S24/button2.png')",
-        'BuyNowMobileRoundedBG': "url('/smartphone/S24/mobBtn2.png')",
+        		'BuyNowRoundedBG': "url('/smartphone/S24/button2.png')",
+        		'BuyNowMobileRoundedBG': "url('/smartphone/S24/mobBtn2.png')",
 				'dualDTSSpeaker': "url('/smartphone/S24/dualDTSSpeaker.png')",
+				'custom-gradient': 'linear-gradient(180deg, rgba(253, 215, 164, 0) 0%, rgba(253, 215, 164, 0.5) 100%)',
 			},
 			borderImage: {
 				's24-gradient-border': 'linear-gradient(107.83deg, #FFCF92 23.83%, #FFE8CB 75.66%) 1',
