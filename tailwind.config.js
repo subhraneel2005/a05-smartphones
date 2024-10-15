@@ -52,12 +52,12 @@ export default {
 				'desktop/h3': ['36px', {
 					lineHeight: '46.8px',
 					letterSpacing: '-0.72px',
-					fontWeight: '500'
+					fontWeight: '600'
 				}],
 				'desktop/h4': ['24px', {
 					lineHeight: '31.2px',
 					letterSpacing: '-0.48px',
-					fontWeight: '500'
+					fontWeight: '600'
 				}],
 				'desktop/h5': ['20px', {
 					lineHeight: '26px',
@@ -96,8 +96,8 @@ export default {
 				}],
 				'desktop/body/large': ['20px', {
 					lineHeight: '32px',
-					letterSpacing: '-0.2px',
-					fontWeight: '400'
+					letterSpacing: '-0.4px',
+					fontWeight: '500'
 				}],
 				'desktop/subtitle': ['14px', {
 					lineHeight: '22.4px',
@@ -155,12 +155,12 @@ export default {
 				}],
 				'mobile/h5/medium': ['20px', {
 					lineHeight: '26px',
-					fontWeight: '600'
+					fontWeight: '700'
 				}],
 				'mobile/h6': ['14px', {
 					lineHeight: '19.2px',
 					letterSpacing: '-0.16px',
-					fontWeight: '500'
+					fontWeight: '600'
 				}],
 				'mobile/h7': ['12px', {
 					lineHeight: '16.8px',
@@ -185,7 +185,7 @@ export default {
 				'mobile/body/large': ['14px', {
 					lineHeight: '19.6px',
 					letterSpacing: '0.14px',
-					fontWeight: '500'
+					fontWeight: '600'
 				}],
 				'moblie/strikethrough': ['10px', {
 					lineHeight: '16px',

@@ -1,7 +1,7 @@
 export const cards = [
     {
         id: 1,
-        name: "Blazing Speed with 8GB* 4GB+4GB* RAM & 64GB ROM",
+        name: "Blazing Speed with 8GB* (4GB+4GB*) RAM & 64GB ROM",
         description: "Ensure smooth multitasking and seamless app navigation with 8GB* 4GB+4GB* RAM using memory fusion technology, combined with ample 64GB ROM.",
         logo: "/logos/logo1.png"
     },

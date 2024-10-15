@@ -27,7 +27,7 @@ export default function Hero() {
           {/* Pixelated button */}
           <button className="mt-4 hidden relative w-[200px] h-[48px] bg-BuyNowSquareBG bg-cover bg-center text-white md:flex items-center justify-center rounded-lg">
           </button>
-          <p className="md:text-[16px] text-[12px] text-gray-600 md:bottom-10 bottom-4 absolute">*Memory Fusion Technology</p>
+          <p className="md:text-[16px] text-[12px] text-[#6F7384] md:bottom-10 bottom-4 absolute">*Memory Fusion Technology</p>
         </div>
 
         {/* Main hero image */}

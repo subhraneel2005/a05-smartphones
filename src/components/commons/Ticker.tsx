@@ -33,7 +33,7 @@ export default function Ticker() {
       </div>
       <div>
           <img src="/Video.png" alt="video" className="w-full md:h-screen h-auto object-cover" />
-          <img src="/Patterns.png" alt="patternsImg" className="w-full h-[30px] md:h-[48px]"/>
+          <img src="/Patterns.png" alt="patternsImg" className="max-w-none w-[180%] md:w-[100%] h-[30px] md:h-[48px]"/>
       </div>
       </>
     );
