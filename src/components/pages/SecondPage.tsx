@@ -5,7 +5,7 @@ import Cards from "../commons/Cards";
 export default function SecondPage() {
 
   return (
-    <>
+    <div className="min-h-screen w-full">
         {/* Navbar */}
         <div className='w-full px-12 py-6 border-b border-gray-400 flex justify-between items-center'>
             <div>
@@ -41,6 +41,6 @@ export default function SecondPage() {
                 ))}
             </div>
         </div>
-    </>
+    </div>
   )
 }

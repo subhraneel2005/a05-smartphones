@@ -217,6 +217,7 @@ export default {
         		'BuyNowMobileRoundedBG': "url('/smartphone/S24/mobBtn2.png')",
 				'dualDTSSpeaker': "url('/smartphone/S24/dualDTSSpeaker.png')",
 				'custom-gradient': 'linear-gradient(180deg, rgba(253, 215, 164, 0) 0%, rgba(253, 215, 164, 0.5) 100%)',
+				
 			},
 			borderImage: {
 				's24-gradient-border': 'linear-gradient(107.83deg, #FFCF92 23.83%, #FFE8CB 75.66%) 1',

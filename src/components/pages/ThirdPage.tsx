@@ -70,7 +70,7 @@ export default function ThirdPage() {
             </div>
 
              {/* frame 3 */}
-             <div className="relative bg-[#FCCE8D] bg-opacity-[20%] border border-[#FCCE8D] w-full h-full md:h-screen flex flex-col justify-center items-center rounded-[36px] mt-6">
+             <div className="relative bg-[#FCCE8D] bg-opacity-[20%] border border-[#FCCE8D] w-full h-full md:h-screen flex flex-col justify-center items-center rounded-[36px] mt-6 overflow-hidden">
                 
                 <div className="flex flex-col justify-start items-start px-6 md:px-12 space-y-4 md:absolute md:top-1/2 md:left-[10%] md:transform md:-translate-y-1/2">
                     <h2 className="max-w-[355px] md:text-desktop/h2 text-mobile/h4 text-center md:text-left pt-6">
