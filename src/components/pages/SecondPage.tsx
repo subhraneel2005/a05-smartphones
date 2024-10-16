@@ -7,7 +7,7 @@ export default function SecondPage() {
   return (
     <div className="min-h-screen w-full flex justify-center items-center flex-col">
         {/* Navbar */}
-        <div className='w-full md:w-[80%] px-4 py-5 border-b border-black border-opacity-[10%] flex justify-between items-center'>
+        <div className='w-full px-4 py-5 border-b border-black border-opacity-[10%] md:w-[80%] flex justify-between items-center'>
             <div>
                 <img src="/logo.png" alt="logo" className="w-24 h-auto md:w-40"/>
             </div>
