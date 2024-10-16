@@ -32,7 +32,7 @@ export default function Hero() {
 
         {/* Main hero image */}
         <img src="/heroImgMobile.png" alt="heroImgMobile" className='w-[100%] object-contain flex md:hidden mt-[-300px]' />
-        <img src="/heroImg.png" alt="heroImg" className='w-[60%] object-contain hidden md:flex' />
+        <img src="/heroImg.png" alt="heroImg" className='w-[60%] md:w-[63%] object-contain hidden md:flex' />
 
         {/* Blurred hero image */}
         <img src="/bluredHero.png" alt="bluredHero" className='w-[100%] object-contain absolute bottom-[-20px] -z-10 md:hidden' />
