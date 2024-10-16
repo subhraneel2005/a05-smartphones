@@ -1,3 +1,4 @@
+import { FaChevronDown } from "react-icons/fa";
 import { reviews } from "../../data/review";
 import ReviewCard from "../commons/ReviewCard";
 
@@ -10,6 +11,10 @@ export default function ReviewPage() {
                 <ReviewCard key={r.id} date={r.date} reviewBio={r.reviewBio} reviewTitle={r.reviewTitle} userAvatar={r.userAvatar} username={r.username} reviewStars={r.reviewStars}/>
             ))}
         </div>
+        <span className="flex justify-center items-center gap-1 mt-6 cursor-pointer">
+            <p className="text-[15px] font-bold">Read More</p>
+            <FaChevronDown size={20} className="text-[#FF0037] mb-1"/>
+        </span>
     </div>
   )
 }
