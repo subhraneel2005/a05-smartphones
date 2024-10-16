@@ -53,7 +53,7 @@ export default function ThirdPage() {
             <img
                 src="/orange.png"
                 alt="Trees"
-                className="w-[80%] h-auto mx-auto mt-56 md:mt-8 z-0"
+                className="w-[70%] h-auto mx-auto mt-56 md:mt-8 z-0"
             />
 
             {/* Position the text container at the very top */}

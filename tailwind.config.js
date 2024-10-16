@@ -81,7 +81,7 @@ export default {
 				'desktop/body/2/medium': ['14px', {
 					lineHeight: '25.6px',
 					letterSpacing: '-0.28px',
-					fontWeight: '500'
+					fontWeight: '600'
 				}],
 				
 				'desktop/body/2/regular': ['14px', {
