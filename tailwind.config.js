@@ -50,7 +50,7 @@ export default {
 				'desktop/h2': ['54px', {
 					lineHeight: '57.6px',
 					letterSpacing: '-1.92px',
-					fontWeight: '500'
+					fontWeight: '600'
 				}],
 				'desktop/h3': ['36px', {
 					lineHeight: '46.8px',
