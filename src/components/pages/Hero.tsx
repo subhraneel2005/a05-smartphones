@@ -7,9 +7,9 @@ export default function Hero() {
       {/* Vector in the background */}
 
       {/* Content container */}
-      <div className='relative z-10 flex flex-col md:flex-row justify-between items-center h-full w-full'>
+      <div className='relative z-10 flex flex-col md:flex-row justify-between items-center h-full w-full '>
 
-        <div className='flex-1 md:ml-28 -ml-14 md:px-8 pt-12'>
+        <div className='flex-1 md:ml-28 -ml-14 md:px-8 pt-12 xl:-mr-20'>
           <div className='px-2 mt-9 rounded-[24px] border-2 border-black w-fit flex justify-center items-center'>
             <p className='mr-1 text-[14px] md:text-[16px] font-bold'>AWESOME SERIES</p>
             <svg className='mb-1' width="15" height="16" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">

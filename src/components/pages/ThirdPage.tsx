@@ -23,8 +23,8 @@ const data = [
 
 export default function ThirdPage() {
     return (
-      <div className="min-h-screen w-full flex flex-col justify-center items-center xl:px-[0px] xl:py-[200px]">
-        <img src="/Patterns.png" alt="patternsImg" className="max-w-none w-[100%] h-[30px] md:h-auto xl:h-[104px] absolute top-0"/>
+      <div className="min-h-screen w-full hidden xxl:flex flex-col justify-center items-center xl:px-[0px] xl:py-[200px]">
+        <img src="/Patterns.png" alt="patternsImg" className="max-w-none w-[100%] h-[30px] md:h-[30px] xl:h-[104px] absolute top-0 "/>
         <div className="xxl:rounded-[64px] rounded-[16px] md:border md:border-[#FCCE8D] xl:w-[80%] xl:h-[60%] w-full h-full flex justify-center items-center flex-col p-8 mt-5">
             {/* frame 1 */}
             <div className="xxl:rounded-[64px] rounded-[16px] w-full h-full bg-[url('/bgTrees.png')] bg-cover bg-center">

@@ -2,7 +2,8 @@ import { specifications } from "../../data/specifications";
 
 export default function FullSpecifications() {
     return (
-      <div className="px-4 md:px-8 max-w-full mt-14"> {/* Added padding for better responsiveness */}
+      <div className="px-4 md:p-[60px] max-w-full mt-14 flex justify-center items-center flex-col"> {/* Added padding for better responsiveness */}
+      <div className="md:w-[80%] md:h-[60%]">
         <h1 className="text-4xl font-bold flex items-center">
           <img src="/Star.png" alt="Star" className="mr-2 max-w-full" />
           <h2 className="md:text-desktop/h2 text-mobile/h4">Full Specifications</h2>
@@ -58,6 +59,7 @@ export default function FullSpecifications() {
             </div>
 
         </div>
+      </div>
       </div>
     );
   }
