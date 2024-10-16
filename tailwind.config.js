@@ -47,12 +47,12 @@ export default {
 				'desktop/h2': ['54px', {
 					lineHeight: '57.6px',
 					letterSpacing: '-1.92px',
-					fontWeight: '600'
+					fontWeight: '500'
 				}],
 				'desktop/h3': ['36px', {
 					lineHeight: '46.8px',
 					letterSpacing: '-0.72px',
-					fontWeight: '600'
+					fontWeight: '500'
 				}],
 				'desktop/h4': ['24px', {
 					lineHeight: '31.2px',

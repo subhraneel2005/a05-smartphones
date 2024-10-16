@@ -23,10 +23,11 @@ const data = [
 
 export default function ThirdPage() {
     return (
-      <div className="min-h-screen w-full flex flex-col justify-center items-center md:py-12 py-3 px-[16px] md:px-[36px]">
-        <div className="rounded-[36px] md:border md:border-[#FCCE8D] w-full h-full flex justify-center items-center flex-col p-3">
+      <div className="min-h-screen w-full flex flex-col justify-center items-center xl:px-[0px] xl:py-[200px]">
+        <img src="/Patterns.png" alt="patternsImg" className="max-w-none w-[100%] h-[30px] md:h-[48px] xl:h-[104px] absolute top-0"/>
+        <div className="rounded-[64px] md:border md:border-[#FCCE8D] xl:w-[80%] xl:h-[60%] w-full h-full flex justify-center items-center flex-col p-8 mt-5">
             {/* frame 1 */}
-            <div className="rounded-[36px] w-full h-full bg-[url('/bgTrees.png')] bg-cover bg-center">
+            <div className="rounded-[64px] w-full h-full bg-[url('/bgTrees.png')] bg-cover bg-center">
             {/* Centered treesMobile image */}
             <img
                 src="/treesMobile.png"
@@ -35,20 +36,20 @@ export default function ThirdPage() {
             />
     
             {/* Divs containing texts */}
-            <div className="grid grid-cols-2 md:flex md:justify-between pt-6 gap-4 pb-7 md:pb-20">
+            <div className="grid grid-cols-2 md:flex md:justify-between xl:max-w-[80%] xl:justify-start xl:flex xl:ml-[260px] pt-6 xl:py-[5rem] gap-4 pb-7 md:pb-20">
                 {data.map((d) => (
                     <div
                     key={d.id}
                     className="flex flex-col items-center mb-4 md:mb-0 md:w-1/4"
                 >
-                    <p className="text-[#fff] md:text-desktop/h3 text-mobile/h6 opacity-[80%]">{d.name}</p>
-                    <p className="text-[#fff] text-mobile/small/body md:text-desktop/body/large opacity-[80%]">{d.description}</p>
+                    <p className="text-[#fff] xl:text-[65px] xl:mb-4 text-mobile/h6 opacity-[80%] text-start">{d.name}</p>
+                    <p className="text-[#fff] text-mobile/small/body xl:text-desktop/h3 opacity-[80%] xl:pt-[25px] text-start">{d.description}</p>
                 </div>
                 ))}
             </div>
             </div>
             
-           {/* frame 2 */}
+            {/* frame 2 */}
             <div className="relative bg-[#FCCE8D] bg-opacity-[20%] border border-[#FCCE8D] w-full h-full md:h-screen flex flex-col items-center rounded-[36px] mt-6">
             <img
                 src="/orange.png"
@@ -92,11 +93,11 @@ export default function ThirdPage() {
                     </div>
                 </div>
                 
-                {/* task: insert another img that will be behind this frame3 image , src="/frame3Vector.png" */}
+                
                 <img
                     src="/frame3Vector.png"
                     alt="Background Vector"
-                    className="absolute bottom-0 right-0 -z-10 transform translate-y-[-20%] opacity-80  w-1/2 md:w-auto"
+                    className="absolute bottom-0 right-0 -z-10 transform lg:translate-y-[-10%] md:translate-y-[-20%] opacity-80 w-1/2 md:w-[20%]"
                 />
 
 
@@ -109,16 +110,16 @@ export default function ThirdPage() {
             </div>
 
             {/* frame 4 */}
-            <div className="relative bg-[#FCCE8D] bg-opacity-[20%] border border-[#FCCE8D] w-full h-full md:h-screen flex flex-col justify-center items-center rounded-[36px] mt-6">
+            <div className="relative bg-[#FCCE8D] bg-opacity-[20%] border border-[#FCCE8D] w-full h-full md:h-screen flex flex-col justify-center items-center rounded-[36px] mt-6 ">
                 {/* Foreground frame3 image */}
                 <img
                     src="/frame4.png"
                     alt="Frame4Image"
-                    className="w-[80%] md:w-[60%] md:max-w-[800px] md:absolute bottom-0 md:left-20 mx-auto h-auto z-10 hidden md:flex"
+                    className="w-[80%] md:w-[60%] md:max-w-[800px] lg:w-[50%] md:absolute bottom-0 md:left-20 lg:left-10 mx-auto h-auto z-10 hidden md:flex"
                 />
 
-                <div className="flex flex-col items-center px-2 md:px-12 space-y-4 md:absolute md:top-1/2 md:right-[15%] md:transform md:-translate-y-1/2">
-                    <h2 className="max-w-[355px] md:text-desktop/h2 text-mobile/h4 text-left pt-6">
+                <div className="flex flex-col items-center px-2 md:px-12 lg:px-4 space-y-4 md:absolute md:top-1/2 md:right-[15%] md:transform md:-translate-y-1/2">
+                    <h2 className="max-w-[355px] md:text-desktop/h2 text-mobile/h4 text-left">
                         Capture Twice the Detail
                     </h2>
                     <p className="max-w-[355px] md:text-desktop/body/large text-desktop/body/2/regular text-[#1C1B1B] text-left ml-3 md:ml-0">
