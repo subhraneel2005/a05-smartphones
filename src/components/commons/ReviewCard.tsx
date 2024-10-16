@@ -12,7 +12,7 @@ interface ReviewCards{
 export default function ReviewCard({ username, date, userAvatar, reviewTitle, reviewBio, reviewStars }: ReviewCards) {
 
   return (
-    <div className="p-5 max-w-md md:max-w-2xl mx-auto">
+    <div className="p-5 max-w-md md:max-w-[840px] mx-auto">
         <div className="flex items-center mb-4">
                         <img src={userAvatar} alt="Profile picture of the reviewer" className="w-12 h-12 rounded-full mr-4 ml-1" />
                         <div>
