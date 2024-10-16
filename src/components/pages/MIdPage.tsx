@@ -9,9 +9,9 @@ export default function MIdPage() {
 
       {/* Content */}
       <div className='flex flex-col items-center mb-4 z-10'>
-        <p className='text-center text-mobile/h6 md:text-desktop/h2 md:block mt-10 md:mt-20'>
+        <p className='xxl:text-desktop/h1 text-mobile/h5 text-start xxl:max-w-full mt-5 md:block md:mt-20'>
           Experience the Ultimate 
-          <span className='block md:inline text-[#FF335F]'> Awesomeness</span>
+          <span className='block md:inline text-center text-[#FF335F]'> Awesomeness</span>
         </p>
       </div>
       
