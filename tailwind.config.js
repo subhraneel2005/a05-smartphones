@@ -12,6 +12,9 @@ export default {
 			'bricolage': ['BricolageGrotesque'],
 			'be_vietnam_pro': ['Be Vietnam Pro'],
 			},
+			screens: {
+				'xxl': '1400px', // Custom breakpoint for 1400px and above
+			  },
 			colors: {
 				'itel-red':'#ff0037',
 				'bg/primary/1': '#f8f6f3',
@@ -52,12 +55,12 @@ export default {
 				'desktop/h3': ['36px', {
 					lineHeight: '46.8px',
 					letterSpacing: '-0.72px',
-					fontWeight: '500'
+					fontWeight: '600'
 				}],
-				'desktop/h4': ['24px', {
+				'desktop/h4': ['28px', {
 					lineHeight: '31.2px',
 					letterSpacing: '-0.48px',
-					fontWeight: '600'
+					fontWeight: '500'
 				}],
 				'desktop/h5': ['20px', {
 					lineHeight: '26px',
