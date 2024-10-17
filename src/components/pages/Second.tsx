@@ -1,6 +1,6 @@
 export default function Second() {
   return (
-    <div className='relative bg-[#FCCE8D] bg-opacity-[20%] border border-[#FCCE8D] flex flex-col justify-center items-center px-3'>
+    <div className='relative bg-[#FCCE8D] bg-opacity-[20%] border md:h-screen border-[#FCCE8D] flex flex-col justify-center items-center overflow-hidden'>
       {/* Background Image */}
       <div
         className='absolute inset-0 bg-no-repeat bg-cover bg-center z-0'
@@ -8,8 +8,8 @@ export default function Second() {
       ></div>
 
       {/* Content */}
-      <div className='flex flex-col items-center mb-4 z-10'>
-        <p className='xxl:text-desktop/h1 text-mobile/h5 text-start xxl:max-w-full mt-5 md:block md:mt-20'>
+      <div className='flex flex-col items-center md:px-[293px] px-[43px] pt-[21px] md:pt-[80px] z-10'>
+        <p className='md:text-desktop/h2 text-mobile/h5 text-start xxl:max-w-full mt-5 md:block md:mt-20'>
           Experience the Ultimate 
           <span className='block md:inline text-center text-[#FF335F]'> Awesomeness</span>
         </p>
@@ -19,7 +19,7 @@ export default function Second() {
       <img 
         src="/4mobs.png" 
         alt="4mobs" 
-        className='w-[80%] max-w-full h-auto mb-0 z-10' 
+        className='md:w-[90%] w-[100%] max-w-full h-auto mx-auto md:pt-[40px] pt-0 object-cover z-10' 
       />
     </div>
   )
