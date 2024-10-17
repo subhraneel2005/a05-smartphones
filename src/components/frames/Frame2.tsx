@@ -31,6 +31,6 @@ export default function Frame2() {
     </div>
     
     <p className="absolute bottom-0 text-opacity-70 text-[#6F7384] right-0 md:pb-[32.47px] md:pr-[36px] pr-[12px] pb-[14px] text-[10px] md:text-desktop/body/1">*Memory Fusion Technology</p>
-   </div>
+    </div>
   )
 }
