@@ -87,7 +87,7 @@ export default {
 					fontWeight: '600'
 				}],
 				
-				'desktop/body/2/regular': ['16px', {
+				'desktop/body/2/regular': ['14px', {
 					lineHeight: '22.4px',
 					letterSpacing: '-0.14px',
 					fontWeight: '400'
