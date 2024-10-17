@@ -52,10 +52,10 @@ export default {
 					letterSpacing: '-1.92px',
 					fontWeight: '600'
 				}],
-				'desktop/h3': ['36px', {
+				'desktop/h3': ['34px', {
 					lineHeight: '46.8px',
 					letterSpacing: '-0.72px',
-					fontWeight: '500'
+					fontWeight: '550'
 				}],
 				'desktop/h4': ['24px', {
 					lineHeight: '31.2px',
@@ -72,7 +72,7 @@ export default {
 					letterSpacing: '-0.2px',
 					fontWeight: '500'
 				}],
-				'desktop/h6/medium': ['14px', {
+				'desktop/h6/medium': ['20px', {
 					lineHeight: '19.2px',
 					letterSpacing: '0.16px',
 					fontWeight: '500'
