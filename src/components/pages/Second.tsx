@@ -1,6 +1,6 @@
 export default function Second() {
   return (
-    <div className='relative bg-[#FCCE8D] bg-opacity-[20%] border md:h-screen border-[#FCCE8D] flex flex-col justify-center items-center overflow-hidden'>
+    <div className='relative bg-[#FCCE8D] bg-opacity-[20%] border md:h-[800px] h-[270px] border-[#FCCE8D] flex flex-col justify-center items-center overflow-hidden'>
       {/* Background Image */}
       <div
         className='absolute inset-0 bg-no-repeat bg-cover bg-center z-0'
@@ -19,7 +19,7 @@ export default function Second() {
       <img 
         src="/4mobs.png" 
         alt="4mobs" 
-        className='md:w-[90%] w-[100%] max-w-full h-auto mx-auto md:pt-[40px] pt-0 object-cover z-10' 
+        className='md:w-[1210.8px] w-[100%] max-w-full h-auto mx-auto md:pt-[40px] pt-0 object-cover z-10' 
       />
     </div>
   )

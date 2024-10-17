@@ -1,9 +1,9 @@
 export default function Third() {
   return (
-    <div className="min-h-screen w-full flex flex-row justify-center items-center md:py-[100px] md:px-[80px] py-[40px] px-[16px]">
+    <div className="min-h-screen w-full flex md:py-[100px] md:px-[80px] py-[40px] px-[16px]">
       
       {/* Parent container to wrap both divs */}
-      <div className="flex flex-col md:flex-row w-full h-full space-y-[12px] md:space-y-0">
+      <div className="flex flex-col md:flex-row w-full h-full justify-center space-y-[12px] md:space-y-0">
         
         {/* div1 */}
         <div className="bg-custom-gradient flex flex-col border rounded-[16px] border-[#FCA74180] md:mr-[24px]">

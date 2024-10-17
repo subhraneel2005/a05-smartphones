@@ -72,7 +72,7 @@ export default {
 					letterSpacing: '-0.2px',
 					fontWeight: '500'
 				}],
-				'desktop/h6/medium': ['20px', {
+				'desktop/h6/medium': ['16px', {
 					lineHeight: '19.2px',
 					letterSpacing: '0.16px',
 					fontWeight: '500'
@@ -87,7 +87,7 @@ export default {
 					fontWeight: '600'
 				}],
 				
-				'desktop/body/2/regular': ['14px', {
+				'desktop/body/2/regular': ['16px', {
 					lineHeight: '22.4px',
 					letterSpacing: '-0.14px',
 					fontWeight: '400'
@@ -146,7 +146,7 @@ export default {
 					letterSpacing: '-0.28px',
 					fontWeight: '500'
 				}],
-				'mobile/h4': ['24px', {
+				'mobile/h4': ['20px', {
 					lineHeight: '31.2px',
 					letterSpacing: '-0.24px',
 					fontWeight: '600'

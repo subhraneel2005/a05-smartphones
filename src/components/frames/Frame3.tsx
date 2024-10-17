@@ -1,7 +1,7 @@
 
 export default function Frame3() {
   return (
-    <div className="relative mt-[16px] bg-[#FCCE8D] bg-opacity-[20%] border border-[#FCCE8D] w-full h-full min-h-[550px] md:h-screen flex flex-col items-center md:rounded-[36px] rounded-[16px] overflow-hidden">
+    <div className="relative mt-[16px] bg-[#FCCE8D] bg-opacity-[20%] border border-[#FCCE8D] w-full h-full min-h-[550px] md:h-[739px] flex flex-col items-center md:rounded-[36px] rounded-[16px] overflow-hidden">
                 
                 <div className="flex flex-col md:flex-row justify-between items-center w-full h-full">
                     <div className="flex flex-col justify-start items-start md:pb-[140px] md:pt-[110px] pt-[16px] px-[12px] md:px-[56px] z-20">
@@ -28,19 +28,24 @@ export default function Frame3() {
                     </div>
 
                     <div>
-                        <div className="-z-10 overflow-hidden">
+                        <div className="-z-10 absolute overflow-hidden bottom-0 right-0 md:pt-[20px] md:pl-[289px] pt-[244px] pl-[140px]">
                             <img
                                 src="/frame3Vector.png"
                                 alt="Background Vector"
-                                className="absolute md:top-0 bottom-[-25%] md:right-[-15%] md:w-[45%] w-[70%] mx-auto h-auto left-[36%] md:left-auto"
+                                className="md:max-w-[685px] w-100% mx-auto h-auto object-cover hidden md:flex"
+                            />
+                             <img
+                                src="/vec.png"
+                                alt="Background Vector"
+                                className="md:max-w-[685px] w-100% mx-auto h-auto object-cover flex md:hidden"
                             />
                         </div>
 
-                        <div className=" z-10">
+                        <div className="overflow-hidden z-10 absolute bottom-0 right-0 md:pt-[60px] md:pr-[80px] pr-[65px]">
                             <img
                                 src="/frame3.webp"
                                 alt="Foreground Image"
-                                className="w-[80%] md:w-[55%] h-auto object-cover absolute bottom-[-40%] md:right-0 left-[2%] md:left-auto"
+                                className="w-[248px] md:w-[582px] h-auto object-cover"
                             />
                         </div>
                     </div>
