@@ -47,7 +47,7 @@ export default {
 					letterSpacing: '-2.4px',
 					fontWeight: '600'
 				}],
-				'desktop/h2': ['54px', {
+				'desktop/h2': ['38px', {
 					lineHeight: '57.6px',
 					letterSpacing: '-1.92px',
 					fontWeight: '600'
@@ -57,7 +57,7 @@ export default {
 					letterSpacing: '-0.72px',
 					fontWeight: '500'
 				}],
-				'desktop/h4': ['28px', {
+				'desktop/h4': ['24px', {
 					lineHeight: '31.2px',
 					letterSpacing: '-0.48px',
 					fontWeight: '500'
@@ -163,7 +163,7 @@ export default {
 				'mobile/h6': ['14px', {
 					lineHeight: '19.2px',
 					letterSpacing: '-0.16px',
-					fontWeight: '500'
+					fontWeight: '600'
 				}],
 				'mobile/h7': ['12px', {
 					lineHeight: '16.8px',

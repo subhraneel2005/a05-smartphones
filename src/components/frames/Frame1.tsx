@@ -43,7 +43,7 @@ export default function Frame1() {
                     className="flex flex-col items-start"
                 >
                     <p className="text-[#fff] md:text-desktop/h3 text-mobile/h6 opacity-[80%]">{d.name}</p>
-                    <p className="text-[#fff] text-mobile/small/body md:text-desktop/body/large opacity-[80%] md:pt-[8px]">{d.description}</p>
+                    <p className="text-[#fff] text-mobile/small/body md:text-desktop/body/large text-opacity-70 md:pt-[8px]">{d.description}</p>
                 </div>
                 ))}
             </div>
