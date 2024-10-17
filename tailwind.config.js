@@ -55,7 +55,7 @@ export default {
 				'desktop/h3': ['36px', {
 					lineHeight: '46.8px',
 					letterSpacing: '-0.72px',
-					fontWeight: '600'
+					fontWeight: '500'
 				}],
 				'desktop/h4': ['28px', {
 					lineHeight: '31.2px',
@@ -97,10 +97,10 @@ export default {
 					letterSpacing: '0.16px',
 					fontWeight: '700'
 				}],
-				'desktop/body/large': ['20px', {
+				'desktop/body/large': ['18px', {
 					lineHeight: '32px',
 					letterSpacing: '-0.4px',
-					fontWeight: '500'
+					fontWeight: '400'
 				}],
 				'desktop/subtitle': ['14px', {
 					lineHeight: '22.4px',
@@ -163,7 +163,7 @@ export default {
 				'mobile/h6': ['14px', {
 					lineHeight: '19.2px',
 					letterSpacing: '-0.16px',
-					fontWeight: '600'
+					fontWeight: '500'
 				}],
 				'mobile/h7': ['12px', {
 					lineHeight: '16.8px',

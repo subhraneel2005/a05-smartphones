@@ -1,52 +1,10 @@
-const data = [
-    {
-        id: 1,
-        name: "6.6” HD+",
-        description: "Drop Notch Display",
-    },
-    {
-        id: 2,
-        name: "1612*720",
-        description: "Pixels Resolution",
-    },
-    {
-        id: 3,
-        name: "120 Hz",
-        description: "Touch Sampling Rate",
-    },
-    {
-        id: 4,
-        name: "60 Hz",
-        description: "Refresh Rate"
-    }
-]
+import Frame1 from "../frames/Frame1";
 
-export default function MDThird() {
+export default function First() {
     return (
-      <div className="min-h-screen w-full flex flex-col justify-center items-center md:px-[0px] md:py-[60px] py-3 px-[16px]">
-        <div className="rounded-[36px] border border-[#FCCE8D] md:w-[80%] md:h-[60%] mt-[50px] flex justify-center items-center flex-col p-3">
-            {/* frame 1 */}
-            <div className="rounded-[36px] w-full h-full bg-[url('/bgTrees.png')] bg-cover bg-center">
-            {/* Centered treesMobile image */}
-            <img
-                src="/treesMobile.png"
-                alt="Trees"
-                className="w-[80%] h-auto mx-auto mt-8" // Adjust the width and margin-top as necessary
-            />
-    
-            {/* Divs containing texts */}
-            <div className="grid grid-cols-2 md:flex md:justify-between mt-4 gap-4">
-                {data.map((d) => (
-                    <div
-                    key={d.id}
-                    className="flex flex-col items-center mb-4 md:mb-0 md:w-1/4"
-                >
-                    <p className="text-[#fff] md:text-desktop/h3 text-mobile/h6 opacity-[80%]">{d.name}</p>
-                    <p className="text-[#fff] text-mobile/small/body md:text-desktop/body/large opacity-[80%]">{d.description}</p>
-                </div>
-                ))}
-            </div>
-            </div>
+      <div className="min-h-screen w-full flex flex-col justify-center items-center md:py-[100px] md:px-[80px] py-[40px] px-[16px]">
+        <div className="md:rounded-[36px] md:border md:border-[#FCCE8D] flex justify-center items-center flex-col md:p-[16px]">
+            <Frame1/>
             
            {/* frame 2 */}
             <div className="relative bg-[#FCCE8D] bg-opacity-[20%] border border-[#FCCE8D] w-full h-full md:h-screen flex flex-col items-center rounded-[36px] mt-6">

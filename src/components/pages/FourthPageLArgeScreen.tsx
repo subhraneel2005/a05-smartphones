@@ -1,4 +1,4 @@
-export default function FourthPage() {
+export default function Third() {
   return (
     <div className="min-h-screen hidden xxl:flex flex-row justify-center items-center py-6 xl:px-[40px] xl:w-[80%] xl:h-[60%] h-full p-8 xl:py-[200px] xxl:rounded-[64px] rounded-[16px] mx-auto">
       

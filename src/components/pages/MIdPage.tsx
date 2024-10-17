@@ -1,4 +1,4 @@
-export default function MIdPage() {
+export default function Second() {
   return (
     <div className='relative bg-[#FCCE8D] bg-opacity-[20%] border border-[#FCCE8D] flex flex-col justify-center items-center px-3'>
       {/* Background Image */}
