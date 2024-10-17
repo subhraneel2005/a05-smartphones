@@ -72,7 +72,7 @@ export default {
 					letterSpacing: '-0.2px',
 					fontWeight: '500'
 				}],
-				'desktop/h6/medium': ['16px', {
+				'desktop/h6/medium': ['14px', {
 					lineHeight: '19.2px',
 					letterSpacing: '0.16px',
 					fontWeight: '500'
@@ -97,7 +97,7 @@ export default {
 					letterSpacing: '0.16px',
 					fontWeight: '700'
 				}],
-				'desktop/body/large': ['18px', {
+				'desktop/body/large': ['16px', {
 					lineHeight: '32px',
 					letterSpacing: '-0.4px',
 					fontWeight: '400'
