@@ -5,8 +5,8 @@ import Frame4 from "../frames/Frame4";
 
 export default function First() {
     return (
-      <div className="min-h-screen w-full flex flex-col justify-center items-center md:py-[100px] md:px-[80px] py-[40px] px-[16px]">
-        <div className="md:rounded-[36px] md:border md:border-[#FCCE8D] flex justify-center items-center flex-col md:p-[16px]">
+      <div className="min-h-screen w-full flex flex-col justify-center items-center lg:py-[100px] lg:px-[80px] py-[40px] px-[16px]">
+        <div className="lg:rounded-[36px] lg:border lg:border-[#FCCE8D] flex justify-center items-center flex-col lg:p-[16px] content">
             <Frame1/>
             <Frame2/>
             <Frame3/>
