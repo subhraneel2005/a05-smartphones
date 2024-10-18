@@ -9,9 +9,9 @@ export default function Second() {
 
       {/* Content */}
       <div className='flex flex-col items-center md:px-[293px] px-[43px] pt-[21px] md:pt-[80px] z-10'>
-        <p className='md:text-desktop/h2 text-mobile/h5 text-start xxl:max-w-full mt-5 md:block md:mt-20'>
+        <p className='md:text-desktop/h2 text-mobile/h5 text-start xl:max-w-full mt-[3rem] md:block xl:mt-20'>
           Experience the Ultimate 
-          <span className='block md:inline text-center text-[#FF335F]'> Awesomeness</span>
+          <span className='block md:text-center xl:inline text-center text-[#FF335F]'> Awesomeness</span>
         </p>
       </div>
       
