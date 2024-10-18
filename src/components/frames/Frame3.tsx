@@ -1,10 +1,10 @@
 
 export default function Frame3() {
   return (
-    <div className="relative mt-[16px] bg-[#FCCE8D] bg-opacity-[20%] border border-[#FCCE8D] w-full h-full min-h-[550px] md:h-[739px] flex flex-col items-center md:rounded-[36px] rounded-[16px] overflow-hidden">
+    <div className="relative mt-[16px] bg-[#FCCE8D] bg-opacity-[20%] border border-[#FCCE8D] w-full h-full min-h-[550px] md:h-[739px] flex flex-col items-center xl:rounded-[36px] rounded-[16px] overflow-hidden">
                 
                 <div className="flex flex-col md:flex-row justify-between items-center w-full h-full">
-                    <div className="flex flex-col justify-start items-start md:pb-[140px] md:pt-[110px] pt-[16px] px-[12px] md:px-[56px] z-20">
+                    <div className="flex flex-col justify-start items-start xl:pb-[140px] xl:pt-[110px] md:pb-[50px] md:pt-[36px] pt-[16px] px-[12px] xl:px-[56px] z-20 md:px-[24px]">
                         <h2 className="md:text-desktop/h2 text-mobile/h4 text-center md:text-left md:pr-[116px] max-w-[350px]">
                         Unlock & Roll: Your Phone, Your Style!
                         </h2>
@@ -28,11 +28,11 @@ export default function Frame3() {
                     </div>
 
                     <div>
-                        <div className="-z-10 absolute overflow-hidden bottom-0 right-0 md:pt-[20px] md:pl-[289px] pt-[244px] pl-[140px]">
+                        <div className="-z-10 absolute overflow-hidden bottom-0 right-0 md:pt-[20px] xl:pl-[289px] pt-[244px] pl-[140px]">
                             <img
                                 src="/frame3Vector.png"
                                 alt="Background Vector"
-                                className="md:max-w-[685px] w-100% mx-auto h-auto object-cover hidden md:flex"
+                                className="xl:max-w-[685px] md:max-w-[325px] w-100% mx-auto h-auto object-cover hidden md:flex"
                             />
                              <img
                                 src="/vec.png"
@@ -41,11 +41,11 @@ export default function Frame3() {
                             />
                         </div>
 
-                        <div className="overflow-hidden z-10 absolute bottom-0 right-0 md:pt-[60px] md:pr-[80px] pr-[65px]">
+                        <div className="overflow-hidden z-10 absolute bottom-0 right-0 xl:pt-[60px] md:pt-[35px] xl:pr-[80px] md:pr-[15px] pr-[65px]">
                             <img
                                 src="/frame3.webp"
                                 alt="Foreground Image"
-                                className="w-[248px] md:w-[582px] h-auto object-cover"
+                                className="w-[248px] xl:w-[582px] md:w-[482px] h-auto object-cover"
                             />
                         </div>
                     </div>
