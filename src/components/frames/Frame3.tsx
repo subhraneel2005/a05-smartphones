@@ -8,7 +8,7 @@ export default function Frame3() {
                         <h2 className="md:text-desktop/h2 text-mobile/h4 text-center md:text-left md:pr-[116px] max-w-[350px]">
                         Unlock & Roll: Your Phone, Your Style!
                         </h2>
-                        <p className="flex flex-col ml-2 md:ml-0 md:text-desktop/body/large text-desktop/body/2/regular text-[#1C1B1B] text-center md:text-left md:pt-[20px] pt-[12px] md:pb-[36px] pb-[21px]">
+                        <p className="flex flex-col ml-2 md:ml-0 md:text-desktop/body/large text-desktop/body/2/regular text-[#1C1B1B] text-center md:text-left md:pt-[20px] pt-[12px] md:pb-[36px] pb-[21px] md:max-w-[200px] xl:max-w-full">
                         <span>Step into the future with a phone that's both</span>
                         <span>chic and practical. With its sleek design</span>
                         <span>and fingerprint sensor, you have complete</span>
