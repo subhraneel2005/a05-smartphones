@@ -1,7 +1,8 @@
-import Frame1 from "../frames/Frame1";
-import Frame2 from "../frames/Frame2";
-import Frame3 from "../frames/Frame3";
-import Frame4 from "../frames/Frame4";
+import Frame1 from "./Frame1";
+import Frame2 from "./Frame2";
+import Frame3 from "./Frame3";
+import Frame4 from "./Frame4";
+
 
 export default function First() {
     return (
