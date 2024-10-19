@@ -22,15 +22,15 @@ export default function Frame4() {
                         <div className="ml-3 md:ml-0 flex flex-row font-bold md:text-[16px] text-[12px] xl:gap-[42px] gap-[20px] py-7 max-w-[355px] md:pt-[40px] pt-[54px]">
                             <span className="flex flex-col items-start space-y-2">
                                 <img src="/logos/f4l1.png" alt="f3l1" className="w-6 h-6 md:w-10 md:h-10" />
-                                <p className="text-left md:text-desktop/body/2/medium xl:text-desktop/h6/medium text-mobile/body/large xl:max-w-[103px] max-w-[93px]">8MP Dual Rear Cam</p>
+                                <p className="text-left md:text-desktop/body/2/medium xl:text-desktop/h6/medium text-mobile/body/large xs:text-mobile/button xl:max-w-[103px] max-w-[93px] xs:max-w-[72px]">8MP Dual Rear Cam</p>
                             </span>
                             <span className="flex flex-col items-start space-y-2">
                                 <img src="/logos/f4l2.png" alt="f3l2" className="w-6 h-6 md:w-10 md:h-10" />
-                                <p className="text-left md:text-desktop/body/2/medium xl:text-desktop/h6/medium text-mobile/body/large xl:max-w-[103px] max-w-[93px]">5MP Fron Cam</p>
+                                <p className="text-left md:text-desktop/body/2/medium xl:text-desktop/h6/medium text-mobile/body/large xs:text-mobile/button xl:max-w-[103px] max-w-[93px] xs:max-w-[72px]">5MP Fron Cam</p>
                             </span>
                             <span className="flex flex-col items-start space-y-2">
                                 <img src="/logos/f4l3.png" alt="f3l2" className="w-6 h-6 md:w-10 md:h-10" />
-                                <p className="text-left md:text-desktop/body/2/medium xl:text-desktop/h6/medium text-mobile/body/large xl:max-w-[103px] max-w-[93px]">Flashlight</p>
+                                <p className="text-left md:text-desktop/body/2/medium xl:text-desktop/h6/medium text-mobile/body/large xs:text-mobile/button xl:max-w-[103px] max-w-[93px] xs:max-w-[72px]">Flashlight</p>
                             </span>
                         </div>
                     </div>

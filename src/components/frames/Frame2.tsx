@@ -9,13 +9,13 @@ export default function Frame2() {
         <span className="md:py-[20px]">
             <h4 className="md:text-desktop/h4 text-mobile/h6 text-[#232323] text-opacity-85 text-center max-w-full py-[12px]">8GB (*4GB+4GB*) RAM + 64GB ROM</h4>
         </span>
-        <p className="xl:text-desktop/body/large md:text-desktop/body/2/medium text-desktop/body/2/regular text-[#1C1B1B] text-opacity-70 max-w-3xl text-center xs:text-mobile/h7">
+        <p className="xl:text-desktop/body/large md:text-desktop/body/large text-desktop/body/2/regular text-[#1C1B1B] text-opacity-70 max-w-xl text-center xs:text-mobile/h7">
         Juggling apps has never been easier! Glide through your tasks with a fluid experience that makes multitasking a breeze.
         </p>
     </div>
     
     {/* img div */}
-    <div className="xl:px-[101px] xl:pt-[170px] xl:pb-[52px] md:px-[12px] md:pb-[64px] md:pt-[160px] absolute z-0 md:flex hidden">
+    <div className="xl:px-[101px] xl:pt-[220px] xl:pb-[52px] md:px-[12px] md:pb-[64px] md:pt-[160px] absolute z-0 md:flex hidden">
         <img
         src="/orange.png"
         alt="Trees"

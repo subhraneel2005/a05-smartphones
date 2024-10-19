@@ -14,7 +14,7 @@ export default {
 			},
 			screens: {
 				'xxl': '1400px',
-				'xs': {'min': '320px', 'max': '359px'},
+				'xs': {'min': '190px', 'max': '359px'},
 			  },
 			colors: {
 				'itel-red':'#ff0037',
@@ -51,7 +51,7 @@ export default {
 				'desktop/h2': ['38px', {
 					lineHeight: '57.6px',
 					letterSpacing: '-1.92px',
-					fontWeight: '600'
+					fontWeight: '500'
 				}],
 				'desktop/h3': ['34px', {
 					lineHeight: '46.8px',
