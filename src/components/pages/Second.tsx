@@ -9,7 +9,7 @@ export default function Second() {
 
       {/* Content */}
       <div className='flex flex-col items-center xl:px-[293px] px-[43px] pt-[21px] xl:pt-[80px] z-10'>
-        <p className='md:text-desktop/h2 text-mobile/h5 text-start xl:max-w-full mt-[3rem] md:block xl:mt-20'>
+        <p className='md:text-desktop/h2 text-mobile/h5 text-start xl:max-w-full mt-[5rem] md:block xl:mt-20 xs:text-mobile/h6'>
           Experience the Ultimate 
           <span className='block md:text-center xl:inline text-center text-[#FF335F]'> Awesomeness</span>
         </p>
@@ -19,7 +19,7 @@ export default function Second() {
       <img 
         src="/4mobs.png" 
         alt="4mobs" 
-        className='md:w-[1210.8px] w-[100%] max-w-full h-auto mx-auto md:pt-[40px] pt-0 object-cover z-10' 
+        className='md:w-[1210.8px] w-[100%] max-w-full h-auto mx-auto xl:pt-[40px] pt-0 object-cover z-10' 
       />
     </div>
   )

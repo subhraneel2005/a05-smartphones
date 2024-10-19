@@ -13,7 +13,8 @@ export default {
 			'be_vietnam_pro': ['Be Vietnam Pro'],
 			},
 			screens: {
-				'xxl': '1400px', // Custom breakpoint for 1400px and above
+				'xxl': '1400px',
+				'xs': {'min': '320px', 'max': '359px'},
 			  },
 			colors: {
 				'itel-red':'#ff0037',
